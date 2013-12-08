@@ -1,7 +1,8 @@
 <%inherit file="master.mak" />
-<div id="map-canvas"></div>
-<div id="dialog" title="traffairious">
-    <p>Hi There</p>
+<div class="col-md-10" id="map-canvas"></div>
+<div id="dialog" class="col-md-2">
+	<div title="title">Traffairious</div>
+    <button id="go-back" onclick="displayCounties()">Back</button>
 </div>
 <%def name="scripts()">
     <script src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script>
